@@ -1,0 +1,25 @@
+{
+  "name": "prometheus-grafana",
+  "version": "1.0.0",
+  "description": "Instrumentation nodejs api with prometheus and grafana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caconka/prometheus-grafana.git"
+  },
+  "author": "Carlos Cabezas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caconka/prometheus-grafana/issues"
+  },
+  "homepage": "https://github.com/caconka/prometheus-grafana#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4",
+    "prom-client": "^11.1.3"
+  }
+}
