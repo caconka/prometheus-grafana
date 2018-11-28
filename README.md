@@ -13,7 +13,7 @@ Instrumentation nodejs api with [Prometheus](https://prometheus.io/) and
 
 ### Run
 
-Modify: `/prometheus-data/prometheus.yml`, replace `host` with your own host machine's IP.
+Modify: `/prometheus-data/prometheus.yml`, replace `192.168.1.37` with your own host machine's IP.
 
 ```sh
 docker run -p 9090:9090 -v "$(pwd)/prometheus-data":/prometheus-data prom/prometheus --config.file=/prometheus-data/prometheus.yml
